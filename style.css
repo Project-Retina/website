@@ -1,0 +1,65 @@
+:root {
+  --color-retina-yellow: #fff1a0;
+  --color-retina-yellow-900: #3f3b00;
+  --color-retina-navyblue: #0d1d2a;
+  --color-retina-green: #64cb88;
+}
+
+html {
+  font-family: Poppins;
+  color: var(--color-retina-yellow);
+}
+
+body {
+  background-color: var(--color-retina-navyblue);
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+
+footer img {
+  width: 10em;
+  filter: invert(100%);
+}
+
+sub {
+  color: var(--color-retina-green);
+  padding: 0.4rem;
+  border: 1px solid var(--color-retina-green);
+  border-radius: 0.5rem;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.retina-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.retina-logo img {
+  width: 12rem;
+}
+
+.container {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.retina-text {
+  text-align: center;
+}
+
+.retina-text h2 {
+  color: white;
+  font-weight: 100;
+}
